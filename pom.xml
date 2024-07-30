@@ -16,6 +16,7 @@
 	<name>spro-user-service</name>
 	<description>User Service for SPRO project</description>
 	<url/>
+
 <!--	
 	<scm>
 		<connection/>

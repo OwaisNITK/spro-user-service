@@ -1,11 +1,9 @@
 spring:
  application:
   name: "spro-user-service"
- profiles:
-  active: dev
 
 server:
- port: 8090
+ port: 8092
 
 # Actuator Configuration
 management:
@@ -16,8 +14,7 @@ management:
     web:
       exposure:
         include: '*'
-
-# Service Registry Configuration
+        
 eureka:
  client:
   service-url:
